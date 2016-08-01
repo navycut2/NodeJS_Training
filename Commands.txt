@@ -1,4 +1,12 @@
 
+# git commands 
+git pull nodeJS_origin master
+git push nodeJS_origin master
+git remote add origin git@github.com:navycut2/NodeJS_Training.git
+git remote -v
+
+
+
 Navigate to the folder where you want to create your project
 
 lookup >> semantic versioning
