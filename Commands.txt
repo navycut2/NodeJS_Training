@@ -15,5 +15,28 @@ Commands
 
 1. npm init >>> first time project
 2. npm install >> to install dependencies from a package.json m existing project
-2. npm install express --save
+3. npm install express --save
+4.npm ls --depth=0
+5. npm -g ls --depth=0
+6. npm install -g learnyounode
 
+Popular Modules
+{
+    Express
+    Grunt
+    Gulp
+    Mongoose
+    Jade
+    CSURF
+}
+
+
+{
+    npm install -g express
+        $PATH > /\node_modules_global
+    express expressApp
+    install dependencies:
+        > cd expressApp && npm install
+    run the app:
+        > SET DEBUG=expressApp:* & npm start
+}
