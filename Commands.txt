@@ -11,6 +11,8 @@ Navigate to the folder where you want to create your project
 
 lookup >> semantic versioning
 
+lookup >> promise vs callbacks
+
 Commands
 
 1. npm init >>> first time project
@@ -18,7 +20,9 @@ Commands
 3. npm install express --save
 4.npm ls --depth=0
 5. npm -g ls --depth=0
-6. npm install -g learnyounode
+6. npm install -g learnyounode >> node workshop
+7. npm install -g expressworks >> express workshop
+
 
 Popular Modules
 {
@@ -30,7 +34,7 @@ Popular Modules
     CSURF
 }
 
-
+going on about Express now :-
 {
     npm install -g express
         $PATH > /\node_modules_global
@@ -40,3 +44,21 @@ Popular Modules
     run the app:
         > SET DEBUG=expressApp:* & npm start
 }
+
+loopkup >> Express workings
+
+example 1 : Flights API
+
+/search  - dep and arrival query: cost, dept time
+
+example 2: Movie ticket
+
+/theatres
+
+/shows
+
+/ticket
+
+
+reach out :- Kunal.mathur@tcs.com
+759004

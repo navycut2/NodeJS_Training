@@ -1,0 +1,10 @@
+[
+    {
+        "flightName":"flight1", 
+        "route": "MUM DEL"
+    },    
+    {
+        "flightName":"flight2",
+        "route": "MUM KOL"
+    }
+]
