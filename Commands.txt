@@ -69,3 +69,11 @@ CheatSheet :-
 https://github.com/rodrigo-medeiros/node-school-lessons/tree/master/expressworks
 
 https://github.com/frasertweedale/learnyounode-solutions
+
+
+
+Last pages accessed
+
+http://expressjs.com/en/guide/writing-middleware.html
+
+http://expressjs.com/en/4x/api.html#app.use
