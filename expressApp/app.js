@@ -5,6 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+//for couchDB (sub-optimal for performance )
+var nano   = require('nano')('http://localhost:5984')
+  , db     = nano.use('expressapp_data');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -22,6 +26,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Make our db accessible to our router
+app.use(function(req,res,next){
+    req.db = db;
+    next();
+});
+
 app.use('/', routes);
 app.use('/users', users);
 
@@ -36,6 +46,8 @@ app.use(function(req, res, next) {
 
 // development error handler
 // will print stacktrace
+//process.env.NODE_ENV , env variable use to identify env. (prod, dev etc.)
+//set NODE_ENV=production , use to run application in prod mode
 if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
