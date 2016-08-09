@@ -82,3 +82,6 @@ http://expressjs.com/en/4x/api.html#app.use
 Tutorial 
 
 http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+
+for counch intrgration over http
+https://www.terlici.com/2015/04/28/couchdb-node-express.html
