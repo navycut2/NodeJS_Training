@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html data-ng-app>
+<head data-ng-init="title='Angular'; items=[0,1,2,3]">
+    <title>Hello Angular</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+</head>
+<body>
+    Hello {{title}}
+    <input type="text" data-ng-model="data" />
+    <div data-ng-repeat="item in items | filter:data" data-ng-hide="hide">
+        {{item}}
+    </div>
+    <button data-ng-click="items[items.length]=items.length">ADD</button>
+    <button data-ng-click="hide=!hide">toggle</button>
+</body>
+</html>

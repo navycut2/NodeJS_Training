@@ -1,0 +1,30 @@
+https://docs.angularjs.org/tutorial
+
+(1) Modules :
+
+    Config Block :
+
+    Run Block :
+
+    module.constant : register a constant service with the module
+
+(2)   controller & scope
+
+    scope is the glue b/w controller & view
+
+(3) $scope vs $rootScope 
+
+note :: do not use rootScope to store own values/property, 
+    reason - event bus, that is supposed to travel b/w events and services from view to controller
+
+
+(4)Routing :- used to provide deep linking 
+
+    angular-router :- url based, 
+                      requires ngRoute sub Module
+                      use $routeProvider
+                      maps the URL to a View and controller combo
+
+    # hashBang URLs - in page navigation
+
+    ui-router :- 
