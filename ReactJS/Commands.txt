@@ -3,3 +3,21 @@ https://github.com/kriasoft/react-starter-kit/tree/master/src/components
 
 pokeddox tutorial
 https://www.codementor.io/react/tutorial/building-a-pokedex-with-react-1
+
+
+https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.fsbtqi17g
+
+
+https://blog.risingstack.com/the-react-way-getting-started-tutorial/
+
+
+
+24th NOv Links
+
+https://www.codementor.io/react/tutorial/building-a-pokedex-with-react-1
+
+https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.2mplfbo6a
+
+https://facebook.github.io/react/tutorial/tutorial.html#getting-started
+
+https://blog.risingstack.com/the-react-way-getting-started-tutorial/
