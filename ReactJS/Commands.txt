@@ -1,0 +1,5 @@
+https://github.com/kriasoft/react-starter-kit/tree/master/src/components
+
+
+pokeddox tutorial
+https://www.codementor.io/react/tutorial/building-a-pokedex-with-react-1
