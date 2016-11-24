@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Hello Angular</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-route.js"></script>
+</head>
+<body data-ng-app="MyApp">
+
+<div data-ng-controller="listcontroller">
+    <ul>
+        <li data-ng-repeat="user in users">
+            {{user.first_name}} {{user.last_name}}
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="js/module.js"></script>
+<script type="text/javascript" src="js/controller/listcontroller.js"></script>
+</body>
+</html>

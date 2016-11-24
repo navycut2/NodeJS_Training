@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Hello Angular</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-route.js"></script>
+</head>
+<body data-ng-app="MyApp">
+
+<div data-ng-controller="listcontroller">
+    <ul>
+        <li data-ng-repeat="user in users" data-ng-click="selectedUser(user)">
+            {{user.first_name}} {{user.last_name}} {{user.email}}
+        </li>
+    </ul>
+</div>
+<div data-ng-controller="detailcontroller">
+    <div data-ng-if="currentUser">
+        <p>Name: {{currentUser.first_name}}</p>
+        <p>Email: {{currentUser.email}}</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/module.js"></script>
+<script type="text/javascript" src="js/controller/listcontroller.js"></script>
+<script type="text/javascript" src="js/controller/detailcontroller.js"></script>
+<script type="text/javascript" src="js/services/userservice.js"></script>
+</body>
+</html>
